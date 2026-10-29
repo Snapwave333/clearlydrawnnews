@@ -1,0 +1,23 @@
+
+:root{--navy:#080D12;--panel:#0F1A24;--cyan:#00A7BF;--orange:#F78C38;--cream:#FFDB9E;--text:#EAF2F6;--dim:#9FB3C0}
+*{box-sizing:border-box}body{margin:0;background:var(--navy);color:var(--text);font:17px/1.6 "Segoe UI",system-ui,sans-serif}
+a{color:var(--cyan)}a:hover{color:var(--cream)}
+header{display:flex;align-items:center;gap:14px;padding:14px 22px;border-bottom:3px solid var(--cyan);background:var(--panel)}
+header img{width:46px;height:46px}header .name{font-weight:900;letter-spacing:.06em;font-size:20px;color:#fff;text-decoration:none}
+header .name span{color:var(--cyan)}header nav{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}
+header nav a{color:var(--text);text-decoration:none;font-weight:600}header nav a:hover{color:var(--cyan)}
+.hero{position:relative}.hero img{width:100%;max-height:420px;object-fit:cover;display:block}
+main{max-width:1060px;margin:0 auto;padding:26px 22px 60px}
+h1{font-size:34px;line-height:1.2;margin:.2em 0}h2{color:var(--cyan);letter-spacing:.04em;margin-top:1.8em}
+.meta{color:var(--dim);font-size:15px}
+.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;background:#000;margin:18px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.card{background:var(--panel);border:1px solid #1E2F3C;border-radius:14px;padding:18px 20px;margin:14px 0}
+.card h3{margin:.1em 0 .3em}.tag{display:inline-block;background:var(--cyan);color:var(--navy);font-weight:800;
+font-size:12px;letter-spacing:.08em;border-radius:20px;padding:2px 10px;margin-right:8px}
+.kitchen .tag{background:var(--orange)}.src{font-size:14px;color:var(--dim)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.chapters{columns:2;font-size:15px}@media(max-width:700px){.chapters{columns:1}h1{font-size:26px}}
+.cast{display:flex;gap:18px;align-items:flex-end;flex-wrap:wrap}.cast img{height:220px}
+footer{border-top:1px solid #1E2F3C;color:var(--dim);font-size:14px;padding:22px;text-align:center}
+.notice{font-size:14px;color:var(--dim);border-left:3px solid var(--orange);padding-left:12px}
